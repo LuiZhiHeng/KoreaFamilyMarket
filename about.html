@@ -44,13 +44,13 @@
             </a>
           </li>
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            <a class="nav-link text-uppercase text-expanded" href="about.html">Contact</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
+            <a class="nav-link text-uppercase text-expanded" href="store.html">About</a>
           </li>
         </ul>
       </div>
@@ -63,12 +63,51 @@
       <div class="about-heading-content">
         <div class="row">
           <div class="col-xl-9 col-lg-10 mx-auto">
-            <div class="bg-faded rounded p-5">
+            <div class="bg-faded rounded p-5" style="overflow: hidden;">
               <h2 class="section-heading mb-4">
                 <span class="section-heading-upper">100% Imported goods from South Korea</span>
                 <span class="section-heading-lower">About Our Shop</span>
               </h2>
+              <style>
+                label, input, textarea, button {
+                  float: left;
+                  clear: both;
+                }
+
+                input, textarea {
+                  width: 100%;
+                  margin-bottom: 20px;
+                }
+
+                button {
+                  width: 100%;  
+                  padding-top: 10px;
+                  padding-bottom: 10px;
+                  font-size: 1.1em;
+                }
+
+                .cap {
+                  text-transform: uppercase;
+                }
+
+              </style>
               <p>When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, 100% Imported goods from South Korea. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+              <form action="">
+                <label for="">First Name: </label>
+                <input type="text" class="form-control">
+
+                <label for="">Last Name: </label>
+                <input type="text" class="form-control">
+                
+                <label for="">Email: </label>
+                <input type="email" class="form-control">
+
+                <label for="">Comments</label>
+                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+
+                <button class="cap btn-primary" >Submit</button>
+              </form>
+
             </div>
           </div>
         </div>
